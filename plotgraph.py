@@ -6,7 +6,10 @@ import streamlit as st
 # Header
 st.header('hehe :sparkles:')
 st.subheader('Plot by Bapak Nug')
- 
+
+nama = st.text_input('Nama', 'Naily', label_visibility='collapsed')
+st.write('Halo ', nama)
+
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
 y = np.sin(x)  # Calculating sin(x) values
 z = np.cos(x)  # Calculating sin(x) values
