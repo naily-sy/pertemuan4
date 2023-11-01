@@ -120,4 +120,3 @@ with col2:
  
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
->>>>>>> 578be450a2e1521659b6dfbc31153568117c3b11
