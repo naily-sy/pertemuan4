@@ -59,7 +59,7 @@ with col2:
  
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
-=======
+
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
