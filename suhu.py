@@ -9,6 +9,9 @@ st.subheader('Plot by Bapak Nug')
 
 nama = st.text_input('Nama', 'Naily', label_visibility='collapsed')
 st.write('Halo ', nama)
+option = st.selectbox(
+    'satuan',
+    ('C','F', 'R', 'K'))
 
 f1 = st.number_input('f1= ', value=1)
 f2 = st.number_input('f2= ', value=1)
