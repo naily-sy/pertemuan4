@@ -23,7 +23,14 @@ with c2:
     'Konversi',
     ('C','F', 'R', 'K'), key='k2')
 
-st.write(x,' ',satuan,' = ', konversi) 
+
+if(satuan=='C'):
+ if(konversi=='C'):
+  y = x
+ elif(konversi=='F'):
+  y = x*9/5 + 32
+  
+st.write(x,' ',satuan,' = ',y,' ', konversi) 
                      
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
