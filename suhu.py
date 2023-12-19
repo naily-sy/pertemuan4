@@ -13,7 +13,6 @@ option = st.selectbox(
     'satuan',
     ('C','F', 'R', 'K'))
 
-f1 = st.number_input('f1= ', value=1)
  
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
