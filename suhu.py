@@ -10,8 +10,12 @@ st.subheader('Plot by Bapak Nug')
 nama = st.text_input('Nama', 'Naily', label_visibility='collapsed')
 st.write('Halo ', nama)
 
-x = st.number_input('suhu ',value=100)
-satuan = st.selectbox(
+c1, c2 = st.columns(2)
+
+with c1:
+ x = st.number_input('suhu ',value=100)
+with c2:
+ satuan = st.selectbox(
     'satuan',
     ('C','F', 'R', 'K'))
 
