@@ -17,13 +17,13 @@ with c1:
  st.write('Dikonversi ke: ')
 with c2:
  satuan = st.selectbox(
-    'satuan',
+    'Satuan',
     ('C','F', 'R', 'K'), key='k1')
  konversi = st.selectbox(
-    'satuan',
+    'Konversi',
     ('C','F', 'R', 'K'), key='k2')
 
- 
+st.write(x,' ',satuan,' = ', konversi) 
                      
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
