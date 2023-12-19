@@ -29,7 +29,39 @@ if(satuan=='C'):
   y = x
  elif(konversi=='F'):
   y = x*9/5 + 32
-  
+ elif(konversi=='R'):
+  y = x*4/5
+ elif(konversi=='K'):
+  y = x + 273
+elif(satuan=='F'):
+ if(konversi=='F'):
+  y = x
+ elif(konversi=='C'):
+  y = (x-32)*5/9
+ elif(konversi=='R'):
+  y = (x-32)*4/9
+ elif(konversi=='K'):
+  y = (x-32)*5/9 + 273
+elif(satuan=='R'):
+ if(konversi=='F'):
+  y = x*9/4 + 32
+ elif(konversi=='C'):
+  y = x*5/4 
+ elif(konversi=='R'):
+  y = x
+ elif(konversi=='K'):
+  y = x*5/4 + 273
+if(satuan=='K'):
+ if(konversi=='C'):
+  y = x - 273
+ elif(konversi=='F'):
+  y = (x-273)*9/5 + 32
+ elif(konversi=='R'):
+  y = (x-273)*4/5
+ elif(konversi=='K'):
+  y = x 
+
+
 st.write(x,' ',satuan,' = ',y,' ', konversi) 
                      
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
