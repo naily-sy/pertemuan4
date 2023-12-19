@@ -8,11 +8,13 @@ st.header('hehe :sparkles:')
 st.subheader('Plot by Bapak Nug')
 
 nama = st.text_input('Nama', 'Naily', label_visibility='collapsed')
+x = st.number_input('suhu ',value=100)
 st.write('Halo ', nama)
-option = st.selectbox(
+satuan = st.selectbox(
     'satuan',
     ('C','F', 'R', 'K'))
 
  
+                     
 st.caption('source: Nugroho Adi Pramono nugroho.xyz')
 
